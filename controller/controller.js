@@ -13,19 +13,21 @@ router.get("/", function(req, res) {
 });
 
 router.get("/scrape", function(req, res) {
-  request("http://www.theonion.com", function(error, response, html) {
+  request("http://www.thenytimes.com", function(error, response, html) {
     var $ = cheerio.load(html);
     var titlesArray = [];
 
-    $(".c-entry-box--compact__title").each(function(i, element) {
+    $(".theme-summary").each(function(i, element) {
       var result = {};
 
       result.title = $(this)
-        .children("a")
-        .text();
+        .children(".story-heading")
+        .text()
+        .trim();
       result.link = $(this)
-        .children("a")
-        .attr("href");
+        .children(".summary")
+        .text()
+        .trim();
 
       if (result.title !== "" && result.link !== "") {
         if (titlesArray.indexOf(result.title) == -1) {
