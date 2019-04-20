@@ -1,6 +1,6 @@
 # News Scraper Network
 
-_News Scraper News_ is a [Node.js](https://nodejs.org/en/) application that allows the user to scrape, select and comment on articles from [The Verge}(https://theverge.com/).
+_News Scraper News_ is a [Node.js](https://nodejs.org/en/) application that allows the user to scrape, select and comment on articles from [The Verge](https://theverge.com/).
 
 ## Technologies Used
 
