@@ -1,5 +1,3 @@
-![The_New_York_Times_logo](https://user-images.githubusercontent.com/43506553/56343245-0a162b80-616f-11e9-92ed-f7db15ed0c93.png)
-
 # News Scraper Network
 
 _News Scraper News_ application is implemented using a [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) server on the back end [Cheerio](https://github.com/cheeriojs/cheerio) and [Express-Handlebars](https://www.npmjs.com/package/express-handlebars/) to pull articles from the New York times and render them on the browser, where they can then be saved and commented on by the user.
