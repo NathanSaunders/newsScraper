@@ -1,6 +1,14 @@
 # News Scraper Network
 
-_News Scraper News_ application is implemented using a [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) server on the back end [Cheerio](https://github.com/cheeriojs/cheerio) and [Express-Handlebars](https://www.npmjs.com/package/express-handlebars/) to pull articles from the New York times and render them on the browser, where they can then be saved and commented on by the user.
+_News Scraper News_ is a [Node.js](https://nodejs.org/en/) application that allows the user to scrape, select and comment on articles from [The Verge}(https://theverge.com/).
+
+## Technologies Used
+
+* [Express](https://expressjs.com/)
+* [Cheerio](https://github.com/cheeriojs/cheerio)
+* [Express-Handlebars](https://www.npmjs.com/package/express-handlebars/)
+* [Mongoose](https://www.npmjs.com/package/express-handlebars/)
+* Request
 
 ## Installation
 
