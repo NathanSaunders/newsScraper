@@ -2,13 +2,13 @@
 
 _News Scraper News_ is a [Node.js](https://nodejs.org/en/) application that allows the user to scrape, select and comment on articles from [The Verge](https://theverge.com/).
 
-## Technologies Used
+## Additional Technologies Used
 
 * [Express](https://expressjs.com/)
 * [Cheerio](https://github.com/cheeriojs/cheerio)
 * [Express-Handlebars](https://www.npmjs.com/package/express-handlebars/)
 * [Mongoose](https://www.npmjs.com/package/express-handlebars/)
-* Request
+* [Request](https://www.npmjs.com/package/request)
 
 ## Installation
 
